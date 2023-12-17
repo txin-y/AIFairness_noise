@@ -1,0 +1,4 @@
+Fairness of AI on hardware devices
+
+This study addresses hardware-induced accuracy decline and fairness concerns due to device fabrication variations. We propose a noise-aware training technique and employ fairness metrics on the 'fitzpatrick17k' dataset. Simulating noise effects on Resnet18 and Vgg11 models, we observe accuracy drops, yet certain fairness metrics improve due to noise. Noise-aware training involves injecting noise into model weights, enhancing robustness. Our method maintains accuracy (<5% drop) and achieves better fairness. Monte Carlo simulations confirm our approach's effectiveness. The graphical analysis demonstrates optimal noise std (0.02) for minimal accuracy drop and improved fairness. This work offers insights into the intricate interplay of accuracy, fairness, and noise in neural network models.
+
